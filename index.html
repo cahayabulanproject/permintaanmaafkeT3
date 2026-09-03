@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sebuah ajakan hangout yang lucu dan romantis untuk gebetan tersayang." />
+  <meta name="theme-color" content="#ffe3ec" />
+  <title>Undangan buat T3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- lapisan hati mengambang dekoratif -->
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <main class="stage">
+    <!-- KARTU 1: undangan -->
+    <section class="card" id="invite-card" aria-labelledby="invite-title">
+      <div class="sticker sticker-1" aria-hidden="true">🛵</div>
+      <div class="sticker sticker-2" aria-hidden="true">✨</div>
+
+      <p class="eyebrow">tuuutt....aku mau ngajakin kamu</p>
+
+      <div class="mascot" id="mascot" role="img" aria-label="Wajah lucu yang malu-malu">
+        <span class="mascot-face">🥺</span>
+      </div>
+
+      <h1 class="title" id="invite-title">
+        Ke rumah mas bakoh<br />
+        bareng aku? <span class="wiggle" aria-hidden="true">🙏</span>
+      </h1>
+
+      <p class="subtitle">
+        kita lama sudah gak ketemu, aku pengen tau aja keadaan kamu
+        bagaimana dan aku juga mau minta maaf ya tuut buat yang kemarin. Gimana? 👉👈
+      </p>
+
+      <div class="buttons">
+        <button class="btn btn-yes" id="yesBtn" type="button">
+          Iya, mau banget! 😊
+        </button>
+        <button class="btn btn-no" id="noBtn" type="button">
+          Hmm, nggak dulu deh 🤔
+        </button>
+      </div>
+
+      <p class="hint" id="hint">psst, tekan tombolnya ya tut 😳</p>
+    </section>
+
+    <!-- KARTU 2: jawaban iya -->
+    <section class="card success-card" id="success-card" hidden aria-labelledby="success-title" aria-live="polite">
+      <div class="mascot big" role="img" aria-label="Wajah bahagia">
+        <span class="mascot-face">🥰</span>
+      </div>
+      <h2 class="title" id="success-title">Yeayy! Makasih tuut ! 🎉</h2>
+      <p class="subtitle">
+        Sampai ketemu ya tut, tak jemput tepat waktu. 💐
+      </p>
+
+      <!-- <div class="date-plan">
+          <div class="plan-item"><span aria-hidden="true">☕</span> Ngopi santai</div>
+          <div class="plan-item"><span aria-hidden="true">🌇</span> Jalan sore</div>
+          <div class="plan-item"><span aria-hidden="true">🍦</span> Es krim bareng</div>
+        </div> -->
+
+      <button class="btn btn-yes" id="restartBtn" type="button">
+        Ulangi lagi dong 🔁
+      </button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    dibuat dengan <span aria-hidden="true">💖</span> spesial buat TuTuT
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
