@@ -56,25 +56,16 @@
     setInterval(spawnHeart, 900);
   }
 
-// ---------- direct ke whatsapp ----------
-var yesBtn = document.getElementById("yesBtn");
+  // ---------- direct ke whatsapp ----------
+  var yesBtn = document.getElementById("yesBtn");
 
-yesBtn.addEventListener("click", function() {
-    var nomorHp1 = "6285174390670"; // Ganti dengan nomor WhatsApp Anda (gunakan kode negara, tanpa tanda +)
-    var nomorHp2 = "6285161159867"; // Ganti dengan nomor WhatsApp Anda (gunakan kode negara, tanpa tanda +)
-    var pesan1 = encodeURIComponent("Halo! Tutut memilih YES."); // Isi pesan otomatis
-    var pesan2 = encodeURIComponent("Halo! Terima kasih ya tut, sudah milih YES."); // Isi pesan otomatis
+  yesBtn.addEventListener("click", function () {
+    var nomorHp = "6285161159867"; // Ganti dengan nomor WhatsApp Anda (gunakan kode negara, tanpa tanda +)
+    var pesan = encodeURIComponent("Halo! Saya milih YES."); // Isi pesan otomatis
 
     // Buka WhatsApp di tab baru
-    window.open("https://wa.me/" + nomorHp1 + "?text=" + pesan1, "_blank");
-    window.open("https://wa.me/" + nomorHp2 + "?text=" + pesan2, "_blank");
-});
-
-  // var url = "https://wa.me/" + phonenumber + "?text=" 
-  // + "*Jawaban :* " + yesBtn + "%0a";
-
-  // window.open(url, '_blank').focus();
-
+    window.open("https://wa.me/" + nomorHp + "?text=" + pesan, "_blank");
+  });
 
   // ---------- tombol "tidak" yang kabur ----------
   function moveNoButton() {
