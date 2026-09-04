@@ -64,10 +64,13 @@
     var pesan = encodeURIComponent(" Iya, aku maafin ! 😊"); // Isi pesan otomatis
 
     // Buka WhatsApp di tab baru
-    setTimeout(function () {
-      window.open('https://wa.me/' + nomorHp + '?text=' + pesan, '_blank');
-    }, 4000); // 4000 milidetik = 4 detik. Ubah angka ini sesuai kebutuhan Anda.
+    window.open("https://wa.me/" + nomorHp + "?text=" + pesan, "_blank");
   });
+
+  // setTimeout(function() {
+  //       window.open('https://wa.me/' + nomorHp + '?text=' + pesan, '_blank');
+  //   }, 2000); 
+  // 2000 milidetik = 2 detik. Ubah angka ini sesuai kebutuhan Anda.
 
   // ---------- tombol "tidak" yang kabur ----------
   function moveNoButton() {
