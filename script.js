@@ -66,7 +66,7 @@
     // Buka WhatsApp di tab baru
     setTimeout(function () {
       window.open('https://wa.me/' + nomorHp + '?text=' + pesan, '_blank');
-    }, 3000); // 3000 milidetik = 3 detik. Ubah angka ini sesuai kebutuhan Anda.
+    }, 10000); // 10000 milidetik = 10 detik. Ubah angka ini sesuai kebutuhan Anda.
   });
 
   // ---------- tombol "tidak" yang kabur ----------
