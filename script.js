@@ -65,8 +65,8 @@
 
     // Buka WhatsApp di tab baru
     setTimeout(function () {
-      window.open('https://://whatsapp.com/send?phone=' + nomorHp + '?text=' + pesan, '_blank');
-    }, 5000); // 5000 milidetik = 5 detik. Ubah angka ini sesuai kebutuhan Anda.
+      window.open('https://wa.me/' + nomorHp + '?text=' + pesan, '_blank');
+    }, 4000); // 4000 milidetik = 4 detik. Ubah angka ini sesuai kebutuhan Anda.
   });
 
   // ---------- tombol "tidak" yang kabur ----------
