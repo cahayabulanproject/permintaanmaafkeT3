@@ -61,7 +61,7 @@
 
   yesBtn.addEventListener("click", function () {
     var nomorHp = "6285161159867"; // Ganti dengan nomor WhatsApp Anda (gunakan kode negara, tanpa tanda +)
-    var pesan = encodeURIComponent("Halo! Saya milih YES."); // Isi pesan otomatis
+    var pesan = encodeURIComponent(" Iya, aku maafin ! 😊"); // Isi pesan otomatis
 
     // Buka WhatsApp di tab baru
     window.open("https://wa.me/" + nomorHp + "?text=" + pesan, "_blank");
