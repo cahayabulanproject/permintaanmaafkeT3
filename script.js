@@ -65,7 +65,7 @@
 
     // Buka WhatsApp di tab baru
     var urlWhatsapp = "https://wa.me/" + nomorHp + "?text=" + pesan;
-    window.open(urlWhatsapp, "_blank");
+    // window.open(urlWhatsapp, "_blank");
 
    // MENAMBAHKAN FUNGSI SETTIMEOUT (JEDA WAKTU)
     setTimeout(function() {
