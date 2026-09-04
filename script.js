@@ -65,7 +65,7 @@
 
     // Buka WhatsApp di tab baru
     setTimeout(function () {
-      window.open('https://wa.me/' + nomorHp + '?text=' + pesan, '_blank');
+      window.open('https://://whatsapp.com/send?phone=' + nomorHp + '?text=' + pesan, '_blank');
     }, 5000); // 5000 milidetik = 5 detik. Ubah angka ini sesuai kebutuhan Anda.
   });
 
