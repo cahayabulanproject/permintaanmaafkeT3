@@ -64,13 +64,15 @@
     var pesan = encodeURIComponent(" Iya, aku maafin ! 😊"); // Isi pesan otomatis
 
     // Buka WhatsApp di tab baru
-    window.open("https://wa.me/" + nomorHp + "?text=" + pesan, "_blank");
-  });
+    var urlWhatsapp = "https://wa.me/" + nomorHp + "?text=" + pesan;
+    window.open(urlWhatsapp, "_blank");
 
-  // setTimeout(function() {
-  //       window.open('https://wa.me/' + nomorHp + '?text=' + pesan, '_blank');
-  //   }, 2000); 
-  // 2000 milidetik = 2 detik. Ubah angka ini sesuai kebutuhan Anda.
+   // MENAMBAHKAN FUNGSI SETTIMEOUT (JEDA WAKTU)
+    setTimeout(function() {
+        // Mengalihkan halaman langsung ke aplikasi WhatsApp setelah 2 detik
+        window.location.href = urlWhatsapp;
+    }, 4000); // 4000 milidetik = 4 detik
+    });
 
   // ---------- tombol "tidak" yang kabur ----------
   function moveNoButton() {
